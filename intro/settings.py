@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hello.apps.HelloConfig',
+    'next_app.apps.NextAppConfig',
 ]
 
     #new apps
-    'hello.apps.HelloConfig',
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
