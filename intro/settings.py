@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'hello.apps.HelloConfig',
     'next_app.apps.NextAppConfig',
     'links.apps.LinksConfig',
+    'inheritance.apps.InheritanceConfig',
 ]
 
     #new apps
